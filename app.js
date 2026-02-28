@@ -2,10 +2,11 @@ const express = require('express');
 const app = express();
 
 const PORT = 3000;
+const message = process.env.MESSAGE
 
 // Basic route
 app.get('/', (req, res) => {
-  res.send('Hello World Update!');
+  res.send(message);
 });
 
 // Start server
