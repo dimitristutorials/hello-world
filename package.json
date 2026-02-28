@@ -1,0 +1,12 @@
+{
+  "name": "hello-express",
+  "version": "1.0.0",
+  "description": "Simple Hello World Express.js app",
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
